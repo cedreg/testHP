@@ -1,11 +1,15 @@
 <?php
-		//Hier schreiben wir ein PHP-Script
+		//Hier schreiben wir ein PHP-Script 
 		
 		//Datenbankverbindung einbinden
 		include('dbconnect.php');
 		
 		//Variableninitialisierung
 		
+		$nonsense = '';		// zum testen
+		if (nonsense == ''){
+		echo hallo;
+		}
 		$anrede = '';		//Formulardaten
 		$vorname = '';		//Formulardaten
 		$nachname = '';		//Formulardaten
